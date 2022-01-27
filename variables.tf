@@ -25,12 +25,12 @@ variable "instance_name" {
 variable "region" {
  description = "value of the region"
  type        = string
- default     = "us-east-2"
+ default     = "ap-south-1"
 }
 variable "ami" {
  description = "value of the ami id"
  type        = string
- default     = "ami-0fb653ca2d3203ac1"
+ default     = "ami-08ee6644906ff4d6c "
 }
 variable "instance_type" {
  description = "value of instance type"
