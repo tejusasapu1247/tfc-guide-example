@@ -30,7 +30,7 @@ variable "region" {
 variable "ami" {
  description = "value of the ami id"
  type        = string
- default     = "ami-00399ec92321828f5"
+ default     = "ami-0fb653ca2d3203ac1"
 }
 variable "instance_type" {
  description = "value of instance type"
